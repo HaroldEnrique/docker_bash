@@ -3,8 +3,8 @@
 option=""
 optionRegex="^[1-4]{1}$"
 
-SCRIPT_INSTALL_FROM_REPOSITORY="./install_from_repository.sh"
-SCRIPT_INSTALL_FROM_SCRIPT="./install_from_script.sh"
+SCRIPT_INSTALL_FROM_REPOSITORY="./docker_ce/install_from_repository.sh"
+SCRIPT_INSTALL_FROM_SCRIPT="./docker_ce/install_from_script.sh"
 
 SCRIPT_UNINSTALL_DOCKER_ENGINE="./uninstall.sh"
 
