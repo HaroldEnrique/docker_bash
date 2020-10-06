@@ -39,8 +39,8 @@ if command_exists docker; then
             curl -L $base/docker-machine-$(uname -s)-$(uname -m) >/usr/local/bin/docker-machine
             chmod +x /usr/local/bin/docker-machine
 
-            echo -e "\nChecking docker-machine version:"
-            docker-machine version --version
+            #echo -e "\nChecking docker-machine version:"
+            #docker-machine version --version
 
             echo -e "\n======== Yayyy! DOCKER-FINISHED SET UP FINISHED ========\n"
 

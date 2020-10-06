@@ -45,8 +45,8 @@ if command_exists docker; then
             echo -e "\n[2/2 STEP] Apply executable permissions to the binary"
             sudo chmod +x /usr/local/bin/docker-compose
 
-            echo -e "\nChecking docker-compose version:"
-            docker-compose --version
+            #echo -e "\nChecking docker-compose version:"
+            #docker-compose --version
 
             echo -e "\n======== Yayyy! DOCKER-COMPOSE SET UP FINISHED ========\n"
 
