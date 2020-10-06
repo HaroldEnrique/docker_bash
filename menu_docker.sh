@@ -45,8 +45,8 @@ while true
 do
     echo -e "\n======= MENU ======"
     echo "1. Install/Uninstall Docker-Engine"
-    echo "2. Install/Uninstall Docker-Machine"
-    echo "3. Install/Uninstall Docker-Compose"
+    echo "2. Install/Uninstall Docker-Compose"
+    echo "3. Install/Uninstall Docker-Machine"
     echo "4. Exit"
     echo "==================="
     echo -e "\n"
